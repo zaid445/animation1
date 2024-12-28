@@ -1,0 +1,205 @@
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+  }
+
+/* police*/
+.two{
+    position: absolute;
+    top: 47%;
+    left: 10%;
+    max-width: 50%;
+    height: 250px;
+    animation-name: police;
+    animation-duration: 2s;
+    animation-fill-mode:both;
+    animation-delay: 5s;
+  }
+  @keyframes police{
+    from{transform: translateX(-1000px);}
+    to{transform: translateX(50px);}
+  }
+
+
+.one{
+   
+    max-width: 50%;
+    height: 140px;
+    width: 260px;
+    position: absolute;
+    top: 58%;
+    left: 75%;
+    animation-name: police1;
+    animation-duration: 2s;
+    animation-fill-mode:both;
+    
+    animation-delay: 5s;
+
+  }
+  @keyframes police1{
+    from{transform: translateX(1000px);}
+    to{transform: translateX(-20px);}
+  }
+
+
+
+
+
+/*thief*/
+.box{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+.box .before{
+  position: absolute;
+  top:340px;
+  left: 500px;
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+.box .before:hover{
+  opacity: 0;
+  cursor: pointer;
+}
+.after{
+  position:absolute;
+  top:350px;
+  left: 600px;
+   width: 100px;
+   height: 100px;
+
+}
+  /*clouds*/
+.cloud{
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  max-width: 50%;
+  height: 180px;
+  animation-name:movecloud;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+}
+@keyframes movecloud{
+  from{transform: translateX(80px);}
+  to{transform: translateX(120px);}
+}
+.cloud2{
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  max-width: 50%;
+  height: 180px;
+  animation-name:movecloud;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+}
+@keyframes movecloud{
+  from{transform: translateX(-1000px);}
+  to{transform: translateX(50px);}
+}
+
+
+.cloud3{
+  position: absolute;
+  top: 15%;
+  left: 65%;
+  max-width: 50%;
+  height: 180px;
+  animation-name:movecloud;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+}
+@keyframes movecloud{
+  from{transform: translateX(100px);}
+  to{transform: translateX(150px);}
+}
+
+.cloud4{
+  position: absolute;
+  top: 15%;
+  left: 0%;
+  max-width: 50%;
+  height: 180px;
+  animation-name:movecloud;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+}
+@keyframes movecloud{
+  from{transform: translateX(-100px);}
+  to{transform: translateX(150px);}
+}
+
+/*tree*/
+.tree{
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  max-width: 50%;
+  height: 180px;
+}
+
+/*Man*/
+.man{
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    max-width: 50%;
+    height: 100px;
+    width:100px;
+    animation-name: man;
+    animation-duration: 9s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes man{
+    from{transform: translateX(150px);}
+    to{transform: translateX(-1165px);}
+  }
+
+
+
+
+/*bird*/
+.bird{
+  width: 110px;
+  height: 90px;
+  position: absolute;
+  top:0%;
+  left: 400px;
+  animation-name: bird;
+    animation-duration: 3s;
+    animation-fill-mode:both;
+    animation-delay: 8s;
+  }
+  @keyframes bird{
+    from{transform: translateX(-1000px);}
+    to{transform: translateX(350px);}
+  }
+
+/*name*/
+h2{
+  position: absolute;
+  top:20px;
+  animation-name:name;
+    animation-duration: 3s;
+    animation-fill-mode:both;
+    animation-delay: 8s;
+  }
+  @keyframes name{
+    from{transform: translateX(-1000px);}
+    to{transform: translateX(350px);}
+  }
+
+
+
+
+
+  
+
+
+
